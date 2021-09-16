@@ -1,1 +1,4 @@
 /* Katelinlis.xyz initial style */
+p {
+  white-space: nowrap;
+}
