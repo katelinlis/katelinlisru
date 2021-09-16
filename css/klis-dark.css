@@ -1,1 +1,5 @@
 /* Katelinlis.xyz dark theme */
+:root {
+  --klis-background-color: #282922;
+  --klis-text-color: #d9c4b5;
+}
