@@ -1,8 +1,19 @@
 // _fonts.scss
 
 @font-face {
-    font-family: "Manrope";
-    src: url("./fonts/Manrope-Regular.ttf") format("truetype");
-    font-style: normal;
+    font-family: 'Ubuntu Mono';
+    src: url('../fonts/UbuntuMono/subset-UbuntuMono-Regular.woff2') format('woff2'),
+        url('../fonts/UbuntuMono/subset-UbuntuMono-Regular.woff') format('woff');
     font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ubuntu Mono';
+    src: url('../fonts/UbuntuMono/subset-UbuntuMono-Bold.woff2') format('woff2'),
+        url('../fonts/UbuntuMono/subset-UbuntuMono-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
 }

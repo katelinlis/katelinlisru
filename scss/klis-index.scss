@@ -6,7 +6,9 @@
 body {
     margin: 0;
     width: 100%;
-    font-family: Manrope, sans-serif;
+    font-family: 'Ubuntu Mono', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
 }
 
 p {
@@ -26,6 +28,15 @@ main {
     }
 }
 
-ul.links {
+h1 {
+    text-align: center;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 22px;
+}
+
+.links {
     display: block;
 }
