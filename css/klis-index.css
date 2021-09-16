@@ -74,3 +74,13 @@ a {
 a:visited {
   color: var(--klis-link-color-visited);
 }
+
+@media (hover: hover) and (pointer: fine) {
+  a:hover {
+    opacity: 0.5;
+  }
+}
+
+a:active {
+  opacity: 0.5;
+}

@@ -59,4 +59,8 @@ a {
     &:visited {
         color: var(--klis-link-color-visited);
     }
+
+    @include hover() {
+        opacity: 0.5;
+    }
 }
