@@ -51,3 +51,10 @@ li {
 ul {
     display: block;
 }
+
+a {
+    color: var(--klis-link-color);
+    &:visited {
+        color: var(--klis-link-color-visited);
+    }
+}

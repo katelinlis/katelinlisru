@@ -65,3 +65,11 @@ li {
 ul {
   display: block;
 }
+
+a {
+  color: var(--klis-link-color);
+}
+
+a:visited {
+  color: var(--klis-link-color-visited);
+}
