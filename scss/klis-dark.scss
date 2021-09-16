@@ -1,7 +1,10 @@
 // klis-dark.scss
 /* Katelinlis.xyz dark theme */
 
+@import "_layout.scss";
+
 :root {
-    --klis-background-color: #282922;
-    --klis-text-color: #d9c4b5;
+    --klis-background-color: #{$dark};
+    --klis-text-color: #{$light};
+    --klis-header-color: #{$very-light};
 }

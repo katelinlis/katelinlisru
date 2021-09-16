@@ -21,6 +21,8 @@ body {
   font-family: 'Ubuntu Mono', sans-serif;
   font-weight: normal;
   font-size: 16px;
+  background-color: var(--klis-background-color);
+  color: var(--klis-text-color);
 }
 
 p {
@@ -41,6 +43,10 @@ main {
   main {
     width: 80%;
   }
+}
+
+h1, h4 {
+  color: var(--klis-header-color);
 }
 
 h1 {
