@@ -1,7 +1,7 @@
 /* Katelinlis.xyz initial style */
 @font-face {
-  font-family: "ManropRegular";
-  src: url("../fonts/Manrope-Regular.ttf") format("truetype");
+  font-family: "Manrope";
+  src: url("./fonts/Manrope-Regular.ttf") format("truetype");
   font-style: normal;
   font-weight: normal;
 }
@@ -9,7 +9,7 @@
 body {
   margin: 0;
   width: 100%;
-  font-family: ManropRegular, sans-serif;
+  font-family: Manrope, sans-serif;
 }
 
 p {
